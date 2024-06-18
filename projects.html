@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marshmallow868 - Projects</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="icon" href="images/normal/favicon.ico" type="image/ico"/>
+</head>
+<body>
+
+<div class="background-gradient"></div>
+<div class="background-noise"></div>
+<div class="header-shadow"></div>
+
+<header id="header">
+    <div class="pc-only">
+        <div class="header-container">
+            <a href="index.html"><img src="images/normal/icon white.png" alt="" class="header-icon"></a>
+            <div class="navigation">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="projects.html">Projects</a>
+            </div>
+            <img src="images/normal/sun.png" alt="" id="theme-toggle-pc">
+        </div>
+    </div>
+    <div class="mobile-only">
+        <label class="burger" for="burger">
+            <input type="checkbox" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <img src="images/normal/icon white.png" alt="" class="header-icon">
+        <img src="images/normal/sun.png" alt="" id="theme-toggle-mobile">
+        <div class="navigation">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="projects.html">Projects</a>
+        </div>
+    </div>
+</header>
+
+<div class="title">
+    <h1>Projects</h1>
+</div>
+
+<div class="section-block">
+
+<div class="pc-only">
+    <div class="center-content">
+        <div class="tag-link">
+            <a href="#playit">Play it</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </div>
+</div>
+
+<div class="tag-container">
+    <p class="tag" id="playit"></p>
+</div>
+<section>
+    <h2>Play it</h2>
+    <div class="center-content">
+        <p>▼ This is the downscaled version of "Better Minecraft" ▼</p>
+        <canvas id="gameCanvas" width="450" height="300"></canvas>
+        <script src="game preview/game.js"></script>
+        <p>You can control the player with WASD</p>
+        <p>Not public yet!</p>
+    </div>
+</section>
+
+<div class="tag-container">
+    <p class="tag" id="projects"></p>
+</div>
+<section>
+    <h2>Projects</h2>
+    <div class="center-content">
+        <p>▼ These are all the "important" projects I made ▼</p>
+        <p class="mobile-only">(The projects don't work on mobile devices.)</p>
+    </div>
+    <br>
+    <div class="card">
+        <b>Meteroite Alarm - <font color="green">Finished</font></b>
+        <hr>
+        <p>Meteorite-Alarm was the first game I've ever made when I was 10 years old. It was in a workshop that my mother 
+        booked for me. It was the first time I've ever coded something. I ended the project in Early 2024. I know it's long 
+        for such a game but I took long breaks in between for personal reasons. It's a simple javascript game with a spaceship 
+        that has to avoid meteorites. The spaceship is controlled with WASD. You can regenerate and use your shield too.</p>
+        To play it, click <a href="Meteorite Alarm/index.html" target="_blank">here</a>.
+    </div>
+    <div class="card">
+        <b>My old website - <font color="green">Finished</font></b>
+        <hr>
+        <p>This was the first website I've ever made (I recently changed it a little, because there were personal informations 
+        on it). I coded it in an informatic working-group. Yeah... in german it's just called AG or "Arbeitsgemeinschaft". It's a 
+        course for students from students, where they meet together after school so work. In this case it is coding. I coded it 
+        with my mentor in Early 2022. It was just a small project so it's not that good but I worked on it for several hours so please 
+        be kind. I was jung and I wasn't good. There used to be links to my friends' websites but i can't find them and I 
+        doubt that they are still online.There is also the old version of "Meteorite-Alarm" on it. It could be interesting to see 
+        how it looked like in the past (little tip: you control the spaceship with the arrow keys).</p>
+        To see it, click <a href="Website Old/index.html" target="_blank">here</a>.
+    </div>
+    <div class="card">
+        <b>SpaceCraft - <font color="green">Finished</font></b>
+        <hr>
+        <p>This is a project in Three.js (that is a tool in JavaScript to make 3D games). I started it also in Early 2022 in the informatic 
+        working-group but it didn't go as well as the AI so it's not finished and I'm not working on it. If you still wanna see how it 
+        looks you can click on the link. You should be able to control the player with WASD.</p>
+        To play it, click <a href="SpaceCraft/index.html" target="_blank">here</a>.
+    </div>
+    <div class="card">
+        <b>Better Minecraft - <font color="orange">In Progress...</font></b>
+        <hr>
+        <p>Better Minecraft is a game I started in Early 2024 to quickly refresh my knowledge about HTML, JavaScript and 
+        CSS, because we had it in the informatics-lessons. It slowly got a bigger project than expected so it's not finished 
+        yet. In the game you have a Player that you can control with WASD. There are enemies which swords oder bows that want to 
+        kill you. It's an infinite world which means that there is no limitation. It's only limited by your GPU and Memory 
+        Ressources. I hope you have fun playing it and don't wonder why it's called "Better Minecraft". I don't know ether.</p>
+        Not public yet!
+    </div>
+    <div class="card">
+        <b>Planet B - <font color="orange">In Progress...</font></b>
+        <hr>
+        <p>Planet B is a colonization game where you have a planet that you colonize and build your empire. It's a clone of 
+        Planet S which isn't that big but it's a cool game for everyone that wants to try. There nothing more to say as the game 
+        is still in very early developing.</p>
+        Not public yet!
+    </div>
+    <div class="card" id="last-card">
+        <b>Game of Life - <font color="green">Finished</font></b>
+        <hr>
+        <p>Game of Life is a clone of the original John Conway's Game of Life. Game of Life was developed in 1970 from John Conway 
+        and it's about drawing structures that live and react to each other. It's pretty simple but you can build enormous things. 
+        Like I said it's not my game and I just tried to make it in JavaScript.</p>
+        To play it, click <a href="Game of Life/index.html" target="_blank">here</a>.
+    </div>
+    <p>I hope this could give you a good look at my programming skills. If you have any questions about any of the projects please contact me!</p>
+</section>
+
+</div>
+
+<footer>
+    <a href="LICENSE.txt">License</a>
+    <br><br>
+    © 2024 Marshmallow868
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
